@@ -13,8 +13,8 @@ import java.security.Key;
 
 public class SauceLabsDemo {
 
-    public static final String USERNAME = "rkp8";
-    public static final String ACCESS_KEY = "0eea0a7d-6b4e-4497-9d54-0d47b5ceb028";
+    public static final String USERNAME = "Your User Name";
+    public static final String ACCESS_KEY = "Your Access Key";
     public static final String URL1 = "https://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com/wd/hub";
 
     public static void main(String[] args) throws MalformedURLException, InterruptedException {
