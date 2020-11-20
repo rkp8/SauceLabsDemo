@@ -1,6 +1,4 @@
-# SauceLabsDemo
-
-This is an example of a preconfigured SauceLab test for Selenium code that does a simple google search for "Group 9 SauceLab Demo."
+# SauceLabsTemplate
 
 Add in your SauceLabs account credentials.
 
