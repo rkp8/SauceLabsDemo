@@ -13,15 +13,20 @@ import java.security.Key;
 
 public class SauceLabsDemo {
 
+    //Specify SauceLab Account Credentials
     public static final String USERNAME = "Your User Name";
     public static final String ACCESS_KEY = "Your Access Key";
+    
+    
     public static final String URL1 = "https://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com/wd/hub";
 
     public static void main(String[] args) throws MalformedURLException, InterruptedException {
 
         MutableCapabilities sauceOptions = new MutableCapabilities();
 
+        //Specify Browser type (Simply change "SafarOptions" to ChromeOptions or Firefox Options, etc.) 
         SafariOptions browserOptions = new SafariOptions();
+        //Specify platform 
         browserOptions.setCapability("platformName", "macOS 10.14");
         browserOptions.setCapability("browserVersion", "latest");
         browserOptions.setCapability("sauce:options", sauceOptions);
@@ -32,6 +37,9 @@ public class SauceLabsDemo {
         /*System.setProperty("webdriver.chrome.driver","/Users/riken/Saucelabs/chromedriver");
         WebDriver driver = new ChromeDriver();
 */
+        
+        //Selenium Code Goes Here:
+        //-------------------------------------------------------------------------
         driver.get("https://google.com");
         System.out.println(driver.getTitle());
         driver.findElement(By.name("q")).sendKeys("Group 9 SauceLabs Demo");
@@ -39,6 +47,8 @@ public class SauceLabsDemo {
         System.out.println(driver.getTitle());
 
         Thread.sleep(500);
+        
+        //-------------------------------------------------------------------------
 
         /*driver.get("https://saucelabs.com/test/guinea-pig");
         System.out.println("title of page is: " + driver.getTitle());*/
