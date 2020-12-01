@@ -6,9 +6,9 @@
 First be sure to create a free SauceLabs account at:
 https://saucelabs.com/sign-up?campid=7011M0000013Rl0&gclid=EAIaIQobChMIpZz1k6at7QIVmonICh3q6ARHEAAYASAAEgIcvvD_BwE
 
-<br></br>
-
 Then follow the procedure below: 
+
+<br></br>
 
 1. Add in your SauceLabs account credentials.
 
