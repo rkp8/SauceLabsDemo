@@ -8,10 +8,12 @@ Prerequisites:
 Create a free SauceLabs account at:
 https://saucelabs.com/sign-up
 
-For IntelliJ users, go to VCS -> Get from Version Control and paste this link in the URL box: https://github.com/rkp8/SauceLabsDemo
+IntelliJ Users: 
+
+go to VCS -> Get from Version Control and paste this link in the URL box: https://github.com/rkp8/SauceLabsDemo
 <br></br>
 
-Otherwise:
+Non-IntelliJ Users:
 
 Download a zipped up version of this code by clicking the green button on the right.
 
