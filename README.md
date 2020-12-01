@@ -8,15 +8,19 @@ Prerequisites:
 Create a free SauceLabs account at:
 https://saucelabs.com/sign-up
 
-Download a zipped up version of this code by clicking the button on the right.
+For IntelliJ users, go to VCS -> Get from Version Control and paste this link in the URL box: https://github.com/rkp8/SauceLabsDemo
+<br></br>
+
+Otherswise:
+
+Download a zipped up version of this code by clicking the green button on the right.
 
 If you have git installed, simply run this command:
 
 git clone https://github.com/rkp8/SauceLabsDemo
-<br></br>
-Import the project into your favorite IDE
 
-For IntelliJ users, go to VCS -> Get from Version Control and paste this link in the URL box: https://github.com/rkp8/SauceLabsDemo
+import the project into your favorite IDE
+
 
 <br></br>
 Coding:
