@@ -1,7 +1,7 @@
 # Sauce Labs Coding
 
 
-<b>Start Testing in Minutes:</b>
+<b>Start Testing Within Minutes:</b>
 
 Prerequisites:
 
