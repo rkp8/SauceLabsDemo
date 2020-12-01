@@ -3,8 +3,7 @@
 
 <b>Start Testing Within Minutes:</b>
 
-![alt text](https://github.com/rkp8/SauceLabsDemo/Screen_Shot_2020-12-01_at_1.33.57_PM.png?raw=true)
-
+<img width="200" height="260" alt="bot" src="https://user-images.githubusercontent.com/60204834/100783377-b1df7c00-33db-11eb-92e2-dacd33dce481.png">
 
 Prerequisites:
 
