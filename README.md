@@ -8,8 +8,6 @@ https://saucelabs.com/sign-up?campid=7011M0000013Rl0&gclid=EAIaIQobChMIpZz1k6at7
 
 Then follow the procedure below: 
 
-<br></br>
-
 1. Add in your SauceLabs account credentials.
 
 
