@@ -3,7 +3,7 @@
 
 <b>Start Testing Within Minutes:</b>
 
-
+![alt text](https://github.com/rkp8/SauceLabsDemo/Screen_Shot_2020-12-01_at_1.33.57_PM.png?raw=true)
 
 
 Prerequisites:
@@ -21,7 +21,7 @@ Non-IntelliJ Users:
 
 Download a zipped up version of this code by clicking the green button on the right.
 
-If you have git installed, simply run this command:
+Or if you have git installed, you can simply run this command:
 
 git clone https://github.com/rkp8/SauceLabsDemo
 
