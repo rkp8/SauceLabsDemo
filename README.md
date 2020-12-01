@@ -3,8 +3,6 @@
 
 <b>Start Testing Within Minutes:</b>
 
-<img width="200" height="260" alt="bot" src="https://user-images.githubusercontent.com/60204834/100783377-b1df7c00-33db-11eb-92e2-dacd33dce481.png">
-
 Prerequisites:
 
 Create a free SauceLabs account at:
