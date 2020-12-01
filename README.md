@@ -2,9 +2,8 @@
 
 
 <b>Start Testing in Minutes:</b>
-<br></br>
 
-First be sure to create a free SauceLabs account at: Get Started in Minutes
+First be sure to create a free SauceLabs account at:
 https://saucelabs.com/sign-up?campid=7011M0000013Rl0&gclid=EAIaIQobChMIpZz1k6at7QIVmonICh3q6ARHEAAYASAAEgIcvvD_BwE
 
 <br></br>
