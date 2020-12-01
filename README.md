@@ -9,6 +9,7 @@ https://saucelabs.com/sign-up?campid=7011M0000013Rl0&gclid=EAIaIQobChMIpZz1k6at7
 Then follow the procedure below: 
 <br></br>
 Download a zipped up version of this code by clicking the button on the right.
+
 If you have git installed, simply run this command: <br></br> git clone https://github.com/rkp8/SauceLabsDemo
 
 Import the project into your favorite IDE
