@@ -11,7 +11,7 @@ https://saucelabs.com/sign-up
 For IntelliJ users, go to VCS -> Get from Version Control and paste this link in the URL box: https://github.com/rkp8/SauceLabsDemo
 <br></br>
 
-Otherswise:
+Otherwise:
 
 Download a zipped up version of this code by clicking the green button on the right.
 
