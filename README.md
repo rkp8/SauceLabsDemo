@@ -3,6 +3,8 @@
 
 <b>Start Testing in Minutes:</b>
 
+Prerequisites:
+
 First be sure to create a free SauceLabs account at:
 https://saucelabs.com/sign-up?campid=7011M0000013Rl0&gclid=EAIaIQobChMIpZz1k6at7QIVmonICh3q6ARHEAAYASAAEgIcvvD_BwE
 
@@ -16,6 +18,8 @@ git clone https://github.com/rkp8/SauceLabsDemo
 
 Import the project into your favorite IDE
 
+<br></br>
+Coding:
 
 1. Add in your SauceLabs account credentials in the code. Replace USERNAME and ACCESS.
 
