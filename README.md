@@ -3,10 +3,14 @@
 
 <b>Start Testing Within Minutes:</b>
 
+
+
+
 Prerequisites:
 
 Create a free SauceLabs account at:
 https://saucelabs.com/sign-up
+<br></br>
 
 IntelliJ Users: 
 
