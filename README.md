@@ -5,11 +5,9 @@
 
 Prerequisites:
 
-First be sure to create a free SauceLabs account at:
+Create a free SauceLabs account at:
 https://saucelabs.com/sign-up
 
-Then follow the procedure below: 
-<br></br>
 Download a zipped up version of this code by clicking the button on the right.
 
 If you have git installed, simply run this command:
@@ -17,6 +15,8 @@ If you have git installed, simply run this command:
 git clone https://github.com/rkp8/SauceLabsDemo
 
 Import the project into your favorite IDE
+
+For IntelliJ users, import from version control and paste this link: https://github.com/rkp8/SauceLabsDemo
 
 <br></br>
 Coding:
@@ -29,7 +29,7 @@ Coding:
 
 
 
-3. Finally, replace the selenuim code with your own custom code.
+3. Finally, replace the Selenuim code with your own custom code.
 
 
 
