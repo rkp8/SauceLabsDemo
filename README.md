@@ -1,4 +1,4 @@
-# Sauce Labs Template
+# Sauce Labs Coding Template
 
 
 <b>Start Testing in Minutes:</b>
