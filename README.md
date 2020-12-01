@@ -1,8 +1,13 @@
 # Sauce Labs Template
 
 
-How to Use:
+Start Testing in Minutes:
 
+First be sure to create a free SauceLabs account at: Get Started in Minutes
+https://saucelabs.com/sign-up?campid=7011M0000013Rl0&gclid=EAIaIQobChMIpZz1k6at7QIVmonICh3q6ARHEAAYASAAEgIcvvD_BwE
+
+
+Then follow the procedure below: 
 
 1. Add in your SauceLabs account credentials.
 
