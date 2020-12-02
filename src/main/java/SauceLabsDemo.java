@@ -13,41 +13,59 @@ import java.security.Key;
 
 public class SauceLabsDemo {
 
-    public static final String USERNAME = "Your User Name";
-    public static final String ACCESS_KEY = "Your Access Key";
+    //TODO: Fill in your SauceLabs Credentials:
+    public static final String USERNAME = "Your Username";
+    public static final String ACCESS_KEY = "Your Access key";
+
+
     public static final String URL1 = "https://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com/wd/hub";
+
 
     public static void main(String[] args) throws MalformedURLException, InterruptedException {
 
+        //TODO: Add Browser and Platform Configuration Code using https://wiki.saucelabs.com/display/DOCS/Platform+Configurator#/:
+        //------------------------------------------------------------------------------------------------------------------------
         MutableCapabilities sauceOptions = new MutableCapabilities();
 
         SafariOptions browserOptions = new SafariOptions();
         browserOptions.setCapability("platformName", "macOS 10.14");
         browserOptions.setCapability("browserVersion", "latest");
         browserOptions.setCapability("sauce:options", sauceOptions);
+        //------------------------------------------------------------------------------------------------------------------------
 
+        //Already Taken Care of:
+        //Instantiate a new Remote webdriver and pass in the URL1 string and browserOptions object
         WebDriver driver = new RemoteWebDriver(new URL(URL1), browserOptions);
 
+        //TODO: Add Selenium Test Code (Be sure to get rid of the older webdriver you were using):
 
-        /*System.setProperty("webdriver.chrome.driver","/Users/riken/Saucelabs/chromedriver");
-        WebDriver driver = new ChromeDriver();
-*/
+        //Example Test for a Google Search:
+        //------------------------------------------------------------------------------------------------------------------------
+
+        //Go to google.com
         driver.get("https://google.com");
+
+        //Print title of webpage to Console
         System.out.println(driver.getTitle());
+
+        //Type in search query into Search box:
         driver.findElement(By.name("q")).sendKeys("Group 9 SauceLabs Demo");
+
+        //Hits Enter to execute query
         driver.findElement(By.name("q")).sendKeys(Keys.RETURN);
+
+        //Print title of webpage to Console
         System.out.println(driver.getTitle());
 
-        Thread.sleep(500);
+        //Causes Delay in test to allow us to see the search results
+        Thread.sleep(3000);
 
-        /*driver.get("https://saucelabs.com/test/guinea-pig");
-        System.out.println("title of page is: " + driver.getTitle());*/
-
+        //Ends tests
         driver.quit();
 
         System.out.println("Tests Completed");
 
-
+        //------------------------------------------------------------------------------------------------------------------------
 
     }
 
